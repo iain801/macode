@@ -46,7 +46,7 @@ void setTrack(int h, int t, char track[]) {
     int i;
     char ouch[7] = "OUCH!!!";
     for (i=0;i<SIZE;i++) 
-        track[i] = ' ';       
+        track[i] = '-';       
     for (i=0;i<SIZE;i++)
         if (h == i && t == i)
             for (int j=0;j<7;j++)
