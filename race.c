@@ -58,7 +58,7 @@ void setTrack(int h, int t, char track[]) {
 }
 
 void printTrack(char track[]) {
-    printf("|START|\n");
+    printf("|START|");
     for (int i=0;i<SIZE;i++) 
         putchar(track[i]);       
     printf("|FINISH|\n");
